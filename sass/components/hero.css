@@ -1,0 +1,137 @@
+.hero {
+  background: #fff;
+}
+
+@media (min-width: 360px) {
+  .hero .container {
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .container {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero .container {
+    padding: 0 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero .container {
+    padding: 0 150px;
+  }
+}
+
+@media (min-width: 1350px) {
+  .hero .container {
+    padding: 0 180px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero .container {
+    padding: 0 220px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .hero .container {
+    padding: 0 270px;
+  }
+}
+
+.hero .container .hero-inner {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+}
+
+.hero .container .hero-inner .hero-inner-col.left {
+  display: none;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-title {
+  z-index: 11;
+  position: relative;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-title h1 {
+  margin: 0;
+  font-weight: 400;
+}
+
+@media (min-width: 1800px) {
+  .hero .container .hero-inner .hero-inner-col .hero-inner-title h1 {
+    font-size: 28px;
+  }
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links {
+  z-index: 11;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item .hero-inner-link-item-padding {
+  position: relative;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item .hero-inner-link-item-padding:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -30vh;
+  bottom: -30vh;
+  left: 0;
+  right: 0;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a {
+  padding: 12px 22px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: transparent;
+  transition: color 0.3s, -webkit-text-stroke 0.3s;
+  -webkit-text-stroke: 1px #000;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a:hover {
+  color: black;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a span {
+  line-height: 1.1;
+  font-weight: 700;
+  text-shadow: none;
+  font-size: 4.5vw;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item:first-child a {
+  padding-left: 0;
+}
+
+.hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item:last-child a {
+  padding-right: 0;
+}
+
+.hero .container .hero-inner-footer .hero-inner-footer-text p {
+  font-size: 1.8rem;
+  margin-top: -90px;
+  width: 70%;
+  line-height: 4.4rem;
+}
+/*# sourceMappingURL=hero.css.map */
