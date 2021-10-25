@@ -57,6 +57,12 @@ V aplikaci je použito.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- Next -->
+
+### Do budoucna
+
+ Přidat P5.js audio a možná Three.js + Shader.
+
 <!-- CONTACT -->
 ## Contact
 
@@ -64,9 +70,7 @@ Josef Dosoudil  - jeptun@gmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Do budoucna
 
- Přidat P5.js audio a možná Three.js + Shader.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
