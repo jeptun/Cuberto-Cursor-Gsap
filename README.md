@@ -64,6 +64,10 @@ Josef Dosoudil  - jeptun@gmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Do budoucna
+
+ Přidat P5.js audio a možná Three.js + Shader.
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
